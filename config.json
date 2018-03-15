@@ -1,0 +1,33 @@
+{
+  "vars": {},
+  "css": [
+    "print.less",
+    "type.less",
+    "grid.less",
+    "forms.less",
+    "buttons.less",
+    "glyphicons.less",
+    "navs.less",
+    "navbar.less",
+    "jumbotron.less",
+    "alerts.less",
+    "media.less",
+    "close.less",
+    "dropdowns.less",
+    "tooltip.less",
+    "popovers.less",
+    "modals.less",
+    "utilities.less",
+    "responsive-utilities.less",
+    "component-animations.less"
+  ],
+  "js": [
+    "alert.js",
+    "dropdown.js",
+    "modal.js",
+    "tooltip.js",
+    "popover.js",
+    "collapse.js",
+    "transition.js"
+  ]
+}

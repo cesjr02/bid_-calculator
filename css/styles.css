@@ -1,0 +1,105 @@
+body {
+	margin-bottom: 80px;
+	background-image: url('/images/debut_light.png')
+}
+
+hr {
+	margin-top: 0;
+}
+
+.table-header {
+	color: #6a88ac;
+}
+
+/* text */
+.h1 {
+	padding-top: 40px;
+	font-weight: 300;
+}
+
+.h2 {
+	font-weigh: 400;
+	padding-bottom: 0;
+	padding-top: 25px;
+	color: #6a88ac;
+	font-weight: 300;
+}
+
+.h3 {
+	font-size: 20px;
+	font-weight: 400;
+}
+
+.navbar-text {
+	font-size: 12px;
+}
+
+.totals {
+	font-size: 18px;
+	font-weight: 300;
+}
+
+.error {
+	color: red;
+}
+
+/* buttons */
+.btn-primary {
+	background-color: #78a6de;
+	border-color: #5d92d2;
+}
+
+
+/* preview div */
+#agreementformat {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#budget-output, #hours-output, #cost-output {
+	float: right;
+}
+
+#dateandsign {
+	margin-top: 60px;
+}
+
+#printbuttons {
+	margin-top: 40px;
+}
+
+.datespan {
+	margin-left: 100px;
+}
+
+.print {
+	margin-bottom: 0px;
+}
+
+/* print style */
+@media print {
+html, body {
+	margin: 0;
+	padding: 0;
+	background: #FFF; 
+	font-size: 9.5pt;
+}
+
+#printbuttons {
+	display: none;
+}
+
+@page {
+	margin: 6em;
+}
+
+.container, .container div {
+	margin: 0;
+	padding: 0;
+}
+
+.template { 
+	overflow: hidden;
+}
+
+
